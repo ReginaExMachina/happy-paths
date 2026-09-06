@@ -1,0 +1,26 @@
+  /* ============================================================
+     THEME: this is the only block that should change between
+     palette versions.
+     ============================================================ */
+  :root{
+    --bg: #F7F4EF;
+    --bg-deep: #EFE9DF;
+    --surface: #FFFFFF;
+    --ink: #3A3532;
+    --ink-soft: rgba(58,53,50,0.60);
+    --ink-faint: rgba(58,53,50,0.36);
+    --primary: #E4674A;
+    --primary-deep: #C94F34;
+    --line: rgba(58,53,50,0.12);
+
+    --route-1: #E4674A;
+    --route-1-deep: #C94F34;
+    --route-2: #F0A25C;
+    --route-2-deep: #C97F3C;
+    --route-3: #B03A2E;
+    --route-3-deep: #8A2C22;
+
+    --font-display: "Fraunces", serif;
+    --font-body: "Karla", sans-serif;
+  }
+  /* ============================================================ */
