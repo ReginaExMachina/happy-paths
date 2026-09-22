@@ -1,12 +1,12 @@
 # happy-paths
 
-A web app that suggests a couple of pleasant walking routes in Toronto for the current month, pulled from the City's open data. Inspired by StrollTO and a local walking group built around the idea of third spaces.
+A web app that suggests pleasant walking routes in Toronto for the current month, pulled from the City's open data. Inspired by StrollTO and a local walking group built around the idea of third spaces.
 
-**Status:** early prototype. The map and month picker work; the underlying data is a small hardcoded sample, not yet fed from a real pipeline.
+**Status:** early prototype. The map and month picker work; the underlying data is a small hardcoded sample, not yet fed from a full dataset.
 
 ## Running it locally
 
-You need a local server, not just opening `index.html` directly, since the map won't load over `file://`.
+You need a local server, not opening `index.html` directly, since the map won't load over `file://`.
 
 ```
 git clone <repo-url>
@@ -20,26 +20,26 @@ Visit `http://localhost:8000`. Any local server works (VS Code's Live Server ext
 
 ```
 happy-paths/
-├── index.html              # markup, links the CSS and JS below
+├── index.html                # markup, links the CSS and JS below
 ├── css/
-│   ├── main.css            # layout, components
-│   └── theme.css           # color variables and fonts only, swap this file to re-theme the app
+│   ├── main.css              # layout, components
+│   └── theme.css             # color variables and fonts only, swap this file to re-theme the app
 ├── js/
-│   ├── strolls-data.js     # the formatted stroll content
-│   └── app.js               # map setup, rendering, and all interaction logic
-├── data/                    # reference material
-│   ├── dictionaries/        # draft versions of data dictionaries for relevant open datasets
+│   ├── strolls-data.js       # the formatted stroll content
+│   └── app.js                # map setup, rendering, and all interaction logic
+├── data/                     # reference material
+│   ├── dictionaries/         # draft versions of data dictionaries for relevant open datasets
 │   ├── fetched/
 │   ├── processed/
 │   └── raw/
-├── tools/                   # scrappers and data fetchers
+├── tools/                    # scrappers and data fetchers
 │   ├── ckan.py
 │   ├── fetch_osm_toronto.py
 │   └── fetch_wikidata_toronto.py
 ├── .editorconfig
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
-├── LICENSE                  # GNU General Public License (code)
+├── LICENSE                   # GNU General Public License (code)
 └── LICENSE-DATA              # Open Database License (merged geographic data)
 ```
 
@@ -77,7 +77,7 @@ Attribution requirements and how they apply to the merged dataset are documented
 
 ## Licensing
 
-Code is licensed under the GNU General Public License, see `LICENSE`. The merged geographic dataset (once it exists as a build artifact) is licensed under the Open Database License, see `LICENSE-DATA`, this is required by OpenStreetMap's own terms for any derivative database built from its data. Code and data are separate works under separate licenses, see `docs/data-attribution-plan.md` for the reasoning.
+Code is licensed under the GNU General Public License, see `LICENSE`. The merged geographic dataset (once it exists as a build artifact) is licensed under the Open Database License, see `LICENSE-DATA`, this is required by OpenStreetMap's own terms for any derivative database built from its data. Code and data are separate works under separate licenses..
 
 ## Known issues
 
