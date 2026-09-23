@@ -72,7 +72,7 @@ Month-based filtering isn't implemented yet, every month currently shows the sam
 
 ## Data sources
 
-- **[StrollTO](https://open.toronto.ca/dataset/strollto/)** and **[Pedestrian Network Data](https://open.toronto.ca/dataset/pedestrian-network/)**, City of Toronto, Open Government Licence – Toronto. See `docs/strollto-data-dictionary.md` and `docs/pednet-data-dictionary.md` for details.
+- **[StrollTO](https://open.toronto.ca/dataset/strollto/)** and **[Pedestrian Network Data](https://open.toronto.ca/dataset/pedestrian-network/)**, City of Toronto, Open Government Licence – Toronto. See `data/dictionaries/strollto-data-dictionary.md` and `data/dictionaries/pednet-data-dictionary.md` for details.
 - Map tiles: OpenStreetMap, © OpenStreetMap contributors, Open Database License.
 
 ## Licensing
