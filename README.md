@@ -4,7 +4,7 @@ A web app that suggests pleasant walking routes in Toronto for the current month
 
 **Status:** early mock-up. The map and month picker work; the underlying data is a small hardcoded sample, not yet fed from a full dataset.
 
-Hosted at <https://reginaexmachina.github.io/happy-paths/>
+Hosted at: <https://reginaexmachina.github.io/happy-paths/>
 
 ## Running it locally
 
