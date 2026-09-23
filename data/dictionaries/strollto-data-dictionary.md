@@ -76,4 +76,4 @@ One record per point of interest. 1,836 records; average 11.5 per neighbourhood,
 
 ## Licensing
 
-Open Government Licence – Toronto. Required attribution text and combination with other sources are documented in `docs/data-attribution-plan.md`.
+Open Government Licence – Toronto.

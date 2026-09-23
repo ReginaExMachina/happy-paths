@@ -3,12 +3,10 @@
 **Source:** open.toronto.ca/dataset/festivals-and-events
 **Publisher:** Economic Development & Culture, City of Toronto
 **License:** Open Government Licence – Toronto
-**Refresh cycle:** Real-time (nominal; see the second resource below)
+**Refresh cycle:** Real-time (nominal)
 **Contact:** spevcal@toronto.ca
 
-This dataset lists festivals, special events, and exhibits submitted by event organizers, reviewed by City Tourism Services staff, and approved for the City's public events calendar. **Note:** Field accuracy is the organizer's responsibility, not the City's.
-
-Structured below in the same order and grouping the resources appear in on the dataset page: four resources, four sections.
+This dataset lists festivals, special events, and exhibits submitted by event organizers, reviewed by City Tourism Services staff, and approved for the City's public events calendar.
 
 ---
 
