@@ -47,7 +47,7 @@ happy-paths/
 
 ## How theming works
 
-`css/theme.css` holds CSS custom properties, background, ink, and a set of `--route-N` / `--route-N-deep` color pairs used for the map lines and legend. `css/main.css` never hardcodes a color, it only references these variables. To try a different look, swap in a different `theme.css` with the same variable names.
+`css/theme.css` holds CSS custom properties, background, ink, and a set of `--route-N` / `--route-N-deep` color pairs used for the map lines and legend. `css/main.css` references these variables. To try a different look, swap in a different `theme.css` with the same variable names.
 
 This is sample data only, not a stable format. The current strolls are a handful of nearby points grouped by proximity, with no category or theme. The real goal is landmarks tagged by type (art, nature, heritage, etc.) pulled from evaluated open data sources, so strolls can be built by neighbourhood and theme instead.
 
@@ -68,18 +68,16 @@ For reference, the current (temporary) shape in js/strolls-data.js:
 
 route is a real path along the sidewalk/trail network (computed via the City's Pedestrian Network data), not a straight line between stops. Nothing in app.js refers to a stroll by name, colors and map layers are assigned by each stroll's position in the array, so adding, removing, or reordering entries here is safe on its own.
 
-Month-based filtering isn't implemented yet, every month currently shows the same full list. That logic lives entirely in one function, getStrollsForMonth() in app.js, which is the only place that needs to change once real filtering is ready.
+Month-based filtering isn't implemented yet, every month currently shows the same full list.
 
 ## Data sources
 
 - **[StrollTO](https://open.toronto.ca/dataset/strollto/)** and **[Pedestrian Network Data](https://open.toronto.ca/dataset/pedestrian-network/)**, City of Toronto, Open Government Licence – Toronto. See `docs/strollto-data-dictionary.md` and `docs/pednet-data-dictionary.md` for field-level detail.
 - Map tiles: OpenStreetMap, © OpenStreetMap contributors, Open Database License.
 
-Attribution requirements and how they apply to the merged dataset are documented in `docs/data-attribution-plan.md`.
-
 ## Licensing
 
-Code is licensed under the GNU General Public License, see `LICENSE`. The merged geographic dataset (once it exists as a build artifact) is licensed under the Open Database License, see `LICENSE-DATA`, this is required by OpenStreetMap's own terms for any derivative database built from its data. Code and data are separate works under separate licenses..
+Code is licensed under the GNU General Public License, see `LICENSE`. The merged geographic dataset (once it exists as a build artifact) is licensed under the Open Database License, see `LICENSE-DATA`, this is required by OpenStreetMap's own terms for any derivative database built from its data. Code and data are separate works under separate licenses.
 
 ## Known issues
 
