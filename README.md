@@ -72,12 +72,12 @@ Month-based filtering isn't implemented yet, every month currently shows the sam
 
 ## Data sources
 
-- **[StrollTO](https://open.toronto.ca/dataset/strollto/)** and **[Pedestrian Network Data](https://open.toronto.ca/dataset/pedestrian-network/)**, City of Toronto, Open Government Licence – Toronto. See `docs/strollto-data-dictionary.md` and `docs/pednet-data-dictionary.md` for field-level detail.
+- **[StrollTO](https://open.toronto.ca/dataset/strollto/)** and **[Pedestrian Network Data](https://open.toronto.ca/dataset/pedestrian-network/)**, City of Toronto, Open Government Licence – Toronto. See `docs/strollto-data-dictionary.md` and `docs/pednet-data-dictionary.md` for details.
 - Map tiles: OpenStreetMap, © OpenStreetMap contributors, Open Database License.
 
 ## Licensing
 
-Code is licensed under the GNU General Public License, see `LICENSE`. The merged geographic dataset (once it exists as a build artifact) is licensed under the Open Database License, see `LICENSE-DATA`, this is required by OpenStreetMap's own terms for any derivative database built from its data. Code and data are separate works under separate licenses.
+Code is licensed under the GNU General Public License, see `LICENSE`. The merged geographic dataset (once it exists) is licensed under the Open Database License, see `LICENSE-DATA`, as required by OpenStreetMap's own terms. Code and data are separate works under separate licenses.
 
 ## Known issues
 
