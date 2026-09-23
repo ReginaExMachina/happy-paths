@@ -2,7 +2,9 @@
 
 A web app that suggests pleasant walking routes in Toronto for the current month, pulled from the City's open data. Inspired by StrollTO and a local walking group built around the idea of third spaces.
 
-**Status:** early prototype. The map and month picker work; the underlying data is a small hardcoded sample, not yet fed from a full dataset.
+**Status:** early mock-up. The map and month picker work; the underlying data is a small hardcoded sample, not yet fed from a full dataset.
+
+Hosted at <https://reginaexmachina.github.io/happy-paths/>
 
 ## Running it locally
 
